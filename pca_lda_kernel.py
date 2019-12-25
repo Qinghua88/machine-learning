@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_moons, make_circles
 from sklearn.decomposition import PCA, KernelPCA
+# for kernel discrimination analysis we can use code from https://github.com/daviddiazvico/scikit-kda
 
 def plot_scatter(X, y, str):
     plt.scatter(X[y == 0, 0], X[y == 0, 1], color='red', marker='x', alpha=0.5)
