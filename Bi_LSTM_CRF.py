@@ -1,3 +1,7 @@
+#### Use BiLSTM_CRF to do name entity recognition
+#### BiLSTM generation features as the input of CRF(conditional random field)
+#### CRF makes the transition matrix more reasonable than just using BiLSTM alone
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
